@@ -27,7 +27,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ### Desktop View:
 
-![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Frontend%20Full%20Websites/Credit-Card-Landing-Page/Output/credit-card-page.png)
+![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Credit-Card-Landing-Page/Output/credit-card-page.png)
 
 <hr>
 
