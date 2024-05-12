@@ -53,12 +53,10 @@ nav{
     text-decoration: none;
     color: var(--tb); 
 }
-
 .nav-links li img {
     width: 10px;
     height: 14px;
-    rotate: 90deg;
-    
+    rotate: 90deg; 
 }
 nav .btn-start{
     padding: 10px 35px;
@@ -66,7 +64,10 @@ nav .btn-start{
     border-color: var(--bgp);
     color: var(--bgp);
     font-size: 16px;
-        font-weight: 500;
+    font-weight: 500;
+}
+.menu{
+    display: none;
 }
 .btn-start:hover{
     background-color: #722ED1;
@@ -95,7 +96,6 @@ nav .btn-start{
 .imgCol img{
     width: 40vw;
 }
-
 .textCol h1{
     font-weight: 700;
     max-width: 500px;
@@ -113,7 +113,6 @@ nav .btn-start{
     margin-top: 2rem;
     display: flex;
     gap: 1rem;
-   
 }
 .btn-free ,.btn-learn{
     padding: 8px 30px;
@@ -138,15 +137,11 @@ nav .btn-start{
     position: relative;
     bottom: 30rem;
     z-index: -1;
-    
     height: 80vh;
     width: 98vw;
     background:linear-gradient(180deg, #FEFEFF 50%, #9DD0FF 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
-
-
-
 /* --------------------- */
 .headings{
     margin-top: -30rem;
@@ -258,7 +253,6 @@ nav .btn-start{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 .SullivanAnalytics .item-Rowan{
     display: flex;
@@ -266,7 +260,6 @@ nav .btn-start{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
 }
 .SullivanAnalytics .item-Rowan img{
     width: 80px;
@@ -314,7 +307,6 @@ nav .btn-start{
     max-width: 590px;
     text-align: center;  
 }
-
 .line-trust{
     display: flex;
     gap: 15px;
@@ -458,5 +450,225 @@ footer .newsletterForm input {
     display: none;
 }
 .shweta{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+}
+
+/* --------- Media Query for Tablet -------------- */
+@media only screen and (max-width: 834px) {
+    .nav-links{
+        display: none;
+    }
+    .btn-start{
+        display: none;
+    }
+    .menu{
+        display: block;
+        color: #722ED1;
+        font-size: 3rem;
+        margin-left: 28rem;
+        font-weight: 700;
+    }
+    .logo{
+        width: 14vw;
+        height: 5vh;
+    }
+    .real-time{
+        display: flex;
+        flex-direction: column;
+    }
+    .textSubHeading{
+        margin-left: -5rem;
+    }
+    .textCol h1{
+        margin-left: -5rem;
+        max-width: 810px;
+    }
+    .textCol p,.btnGroups{
+        margin-left: -5rem;
+    }
+    .imgCol img{
+        width: 600px;
+    }
+    .clipArt{
+        margin-top: -5rem;
+    }
+    .valuable{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .valuable .item p{
+        max-width: 800px;
+    }
+    .product-teams .imgCol img{
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+    .product-teams .textCol {
+        margin-top: -5rem;
+    }
+    .product-teams .textSubHeading{
+        margin-left: -7rem;
+    }
+    .product-teams .textCol h2{
+        margin-left: -7rem;
+    }
+    .product-teams .textCol p{
+        margin-left: -7rem;
+        line-height: 27px;
+    }
+    .Engineering-Teams .imgCol img{
+        max-width: 450px;
+        margin-top: 2rem;
+    }
+    .Engineering-Teams .textCol h2{
+        margin-left: -4.5rem;
+    }
+    .Engineering-Teams .textCol p{
+        max-width: 400px;
+        line-height: 27px;
+    }
+    .best{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .best .col-text h2{
+        max-width: 750px;
+    }
+    .best .line-trust{
+        display: flex;
+        justify-content: center;
+    }
+    .logos-2{
+        max-width: 800px;
+        display: flex;
+    }
+    .logos-2 img{
+        width: 12vw;
+        height: 4vh;
+    }
+    .col-form{
+        margin-top: 4rem;
+    }
+    .container-f {
+        margin-left: -3rem;
+        display: flex;
+    }
+    .container-f .list{
+        max-width: 800px;
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+    .company .logo-c{
+        height: 4vh;
+        margin-left: 6rem;
+    }  
+}
+/* --------- Media Query for Mobile -------------- */
+@media only screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 30vw;
+        height: 6vh;
+        margin-left: 1rem;
+    }
+    .menu{
+        font-size: 2.6rem;
+        width: 15vw;
+        margin-top: -10px;
+        display: block;
+        margin-left: 11rem;
+    }
+    .real-time{
+        margin-top: -6rem;
+    }
+    .real-time .textCol h1{
+        font-size: 2.6rem;
+    }
+    .btnGroups {
+        display: flex;
+        flex-direction: column;
+        margin-left: -6rem;
+    }
+    .real-time .imgCol img{
+        width: 380px;
+        margin-left: -6rem;
+    }
+    .headings .textSubHeading{
+        margin-left: 1.5rem;
+    }
+    .headings h2{
+        font-size: 1.8rem;
+        max-width: 400px;
+        text-align: center;
+    }
+    .product-teams .imgCol img{
+        width: 350px;
+    }
+    .product-teams .textCol {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        margin-left: -24rem;
+        margin-top: 18rem;
+    }
+    .Engineering-Teams{
+        display: flex;
+        flex-direction: column;
+    }
+    .Engineering-Teams .imgCol img{
+        width: 380px;
+    }
+    .testomonials{
+        margin-left: -0.5rem;
+    }
+    .SullivanAnalytics .item-Rowan h4{
+        max-width: 350px;
+        margin-top: 1.5rem;
+    }
+    .logos-1{
+        max-width: 380px;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .logos-1 img{
+        width: 19vw;
+        height: 4vh;
+    }
+    .best .col-text h2{
+        max-width: 400px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .line-trust{
+        margin-left: -1rem;
+    }
+    .line-1,.line-2{
+        width: 120px;
+    }
+    .logos-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .logos-2 img{
+        width: 20vw;
+    }
+    .signUpForm .btn-your,.signUp input{
+        width: 330px;
+    }
+    .container-f{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-f .list{
+        margin-left: 5rem;
+    }
 }
