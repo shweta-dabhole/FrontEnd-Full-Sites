@@ -27,7 +27,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ### Desktop View:
 
-![image](https://github.com/vitthal-korvan/Hosting-Site-Landing-Page/blob/main/assets/Screenshots/desktop_view.png)
+![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Hosting-Site-Landing-Page/assets/Screenshots/Desktop%20view.png)
 
 <hr>
 
