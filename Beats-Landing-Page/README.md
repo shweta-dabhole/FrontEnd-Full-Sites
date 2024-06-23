@@ -1,5 +1,4 @@
-
-# Hosting-Site-Landing-Page
+# Beats-Landing-Page:
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
@@ -19,7 +18,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 <hr>
 
 ## ▶️ Live Project Link:
-[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://hosting-cards-landing-page-shweta.netlify.app/)
+[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://beats-landing-page-shweta.netlify.app/)
 
 <hr>
 
@@ -27,16 +26,18 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ### Desktop View:
 
-![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Hosting-Site-Landing-Page/assets/Screenshots/Desktop%20view.png)
+![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Beats-Landing-Page/screenshot/Desktop%20view.png)
 
 <hr>
 
 ### Medium Screen / Tablet View:
 
-![image](https://github.com/vitthal-korvan/Hosting-Site-Landing-Page/blob/main/assets/Screenshots/teblet_view.png)
+![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Beats-Landing-Page/screenshot/Tabview.png)
 
 <hr>
 
 ### Mobile View:
 
-![image](https://github.com/vitthal-korvan/Hosting-Site-Landing-Page/blob/main/assets/Screenshots/mobile_view.png)
+![image](https://github.com/shweta-dabhole/FrontEnd-Full-Sites/blob/main/Beats-Landing-Page/screenshot/mobile%20view.png)
+
+
