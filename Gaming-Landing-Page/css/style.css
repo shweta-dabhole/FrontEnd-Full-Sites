@@ -56,6 +56,9 @@ span{
     color: var(--bgp);
     font-family: var(--ffs);
 }
+body{
+    overflow-x: hidden;
+}
 /* ---------- Navbar -------------- */
 .header{
     position: relative;
@@ -73,7 +76,7 @@ span{
 .nav{
     display: flex;
     gap: 2rem;
-    margin-right: 22rem;
+    margin-right: 14rem;
 }
 a,li{
     text-decoration: none;
@@ -173,7 +176,7 @@ a,li{
 }
 /* ---------------Popular-Games Section-------------- */
 .popular-games{
-    padding-top: 45rem;
+    margin-top: 45rem;
 }
 .popular-games .heading h2{
     text-align: center;
@@ -302,7 +305,6 @@ a,li{
     display: flex;
     justify-content: space-around;
 }
-
 .game-week .heading .svg-groups img{
     width: 60px;
     height: 60px;
@@ -406,6 +408,7 @@ a,li{
 .banner{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.637)), url(/assets/Photos/Rectangle\ 606.png);
     height: 400px;
+    width: 100vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -471,8 +474,8 @@ a,li{
         margin-right: 1rem;
     }
      .hero-1{
-        width: 100%;
-        height: 115vh;
+        width: 100vw;
+        height: 117vh;
     }
     .hero-1 .container{
         display: flex;
@@ -480,7 +483,7 @@ a,li{
         gap: 1rem;
     }
     .hero-1 .container .left h1{
-        font-size: 36px;
+        font-size: 40px;
         margin-left: -9rem;
         margin-top: -4rem;
     }
@@ -590,7 +593,119 @@ a,li{
         margin-left: 1rem;
     }
 }
+------------- Media Query for Tablet ------------
+ @media screen and (max-width: 834px) {
+    .header .logo{
+        margin-left: 2rem;
+    }
+    .header .nav{
+        display: none;
+    }
+    .group-sign{
+        margin-right: -7rem;
+    }
+    .hero-1{
+        width: 100vh;
+        height: 100%;
+    }
+    .hero-1 .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .hero-1 .container .left h1{
+        font-size:40px;
+        margin-left: -7rem; 
+        margin-top: -2rem; 
+    }
+    .hero-1 .container .left p{
+        margin-left: -7rem;
+        max-width: 570px;
+        font-size: 20px;
+    }
+    .btns-groups{
+        display: flex;
+        margin-left: -7rem;
+    }
+    .hero-1 .container .right img{
+        width: 150px;
+    }
+    .popular-games .heading h2{
+        position: relative;
+        top: 8rem;
+        font-size: 50px;
+    }
+    .popular-games .container .items{
+        margin-top: 5rem;
+    }
+    .popular-games .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -9rem;
+    }
+    .popular-games .container .items {
+        max-width: 330px;
+    }
+    .explore .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .explore .container .left img{
+        width: 730px;
+        height: 690px;
+        margin-left: 3rem;
+    }
+    .explore .container .right h2{
+        font-size: 48px;
+        max-width: 650px;
+        margin-top: -6rem;
+        margin-left: 20px;
+    }
+    .explore .container .right p{
+        margin-left: 10px;
+        font-size: 20px;
+        min-width: 700px;
+    }
+    .explore .container .right .btns-groups{
+        display: flex;
+        flex-direction: row;
+        max-width: max-content;
+        margin-left: 1rem;
+    }
+    .game-week .container .items{
+        margin-left: -6rem ;
+    }
+    .game-week .container .items img {
+        width: 180px;
+    }
+    .game-week .container .items:nth-child(2),.game-week .container .items:nth-child(4){
+        position: relative;
+        right: 6rem;
+    }
+    .game-most{
+        display: none;
+    }
+    .game-most .banner .container{
+        width: 100vw;
+    }
+    .footer{
+        gap:3rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 3rem;
+        padding: 3rem 0;
+    }
+    .company{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .copyright{
+        padding: 2rem 0;
+    }
 
+}
 
+ 
 
 
